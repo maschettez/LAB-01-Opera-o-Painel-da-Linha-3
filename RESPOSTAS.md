@@ -1,24 +1,32 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
+Nome: Gustavo Maschette 
+Matricula: 
 Dupla (M2 em diante):
 
 ---
 
 ## M2 - Quem quebrou o painel
 
-**Hash curto do commit que introduziu o erro:**
+**Hash curto do commit que introduziu o erro:** 
+01ef93b
 
-**Autor:**
+**Autor:** 
+Tarcisio Melo <tarcisio.melo@techinova.com.br>
 
 **Data:**
+15/06/2026 22:38:00 (-0300)
 
 **Linha alterada (antes e depois):**
+Refatora a funcao de conversao para simplificar a expressao
 
 ```
-antes:
-depois:
+Antes:
+return (leitura - 32) * 5 / 9;
+
+Depois:
+return leitura * 9 / 5 + 32;
+
 ```
 
 ---
