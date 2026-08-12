@@ -28,5 +28,11 @@
     "descricao": "Vibracao do eixo principal",
     "valor": 68.0,
     "unidade": "F"
+  },
+  {
+    "codigo": "S-527",
+    "descricao": "Sensor da Linha 3",
+    "valor": 0.0,
+    "unidade": "F"
   }
 ]
