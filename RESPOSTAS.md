@@ -20,14 +20,6 @@ Tarcisio Melo <tarcisio.melo@techinova.com.br>
 **Linha alterada (antes e depois):**
 Refatora a funcao de conversao para simplificar a expressao
 
-```
-Antes:
-return (leitura - 32) * 5 / 9;
-
-Depois:
-return leitura * 9 / 5 + 32;
-
-```
 
 ---
 
@@ -36,7 +28,14 @@ return leitura * 9 / 5 + 32;
 **O que voce esperava ver no `git status` e o que apareceu:**
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
-Responda em duas linhas, explicando o motivo:**
+Responda em duas linhas, explicando o motivo:
+** Eu esperava que o arquivo `config/credenciais.env` fosse ignorado assim que fosse adicionado ao `.gitignore`.
+No `git status`, ele continuou aparecendo porque já estava sendo rastreado pelo Git, então foi necessário usar `git rm --cached` para remover o arquivo do índice sem apagá-lo do computador.
+
+**Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?**
+
+Sim. A chave ainda pode ser encontrada nos commits antigos do histórico do repositório.
+O `.gitignore` impede apenas que novas versões do arquivo sejam rastreadas, mas não remove o conteúdo dos commits anteriores.
 
 ---
 
