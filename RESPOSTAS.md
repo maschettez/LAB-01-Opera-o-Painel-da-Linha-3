@@ -56,9 +56,16 @@ O trecho da Equipe A veio da branch `painel-a` e o trecho da Equipe B veio da br
 
 **Hash do commit que quebrou o painel:**
 
+01ef93b
+
 **Hash do commit de revert:**
 
+93b80b1
+
 **Por que `git revert` e nao `git reset` neste caso:**
+
+O `git revert` cria um novo commit que desfaz a alteração sem apagar o histórico.
+O `git reset` reescreve o histórico, o que pode causar problemas em um repositório compartilhado.
 
 
 
