@@ -43,13 +43,14 @@ O `.gitignore` impede apenas que novas versões do arquivo sejam rastreadas, mas
 
 **O que significavam os marcadores que apareceram dentro do arquivo:**
 
-- `<<<<<<<` :
-- `=======` :
-- `>>>>>>>` :
+- `<<<<<<<` : indica o início da alteração atual, que estava na branch `main`.
+- `=======` : separa as duas versões em conflito.
+- `>>>>>>>` : indica o final da alteração que estava chegando da outra branch, `painel-b`.
 
 **Qual pedaco veio de quem, e qual titulo voces decidiram manter:**
 
----
+O trecho da Equipe A veio da branch `painel-a` e o trecho da Equipe B veio da branch `painel-b`. Decidimos manter o título `Painel da Linha 3 - Equipe A`.
+
 
 ## Casa - Incidente na linha 3
 
@@ -58,3 +59,6 @@ O `.gitignore` impede apenas que novas versões do arquivo sejam rastreadas, mas
 **Hash do commit de revert:**
 
 **Por que `git revert` e nao `git reset` neste caso:**
+
+
+
