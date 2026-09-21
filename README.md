@@ -10,3 +10,5 @@ Abra o arquivo `index.html` no navegador. Nao precisa de servidor web.
 
 <!-- Nome: GUSTAVO MASCHETTE DOS SANTOS -->
 <!--Matrícula: 314-->
+
+## Alertas
